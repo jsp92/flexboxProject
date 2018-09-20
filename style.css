@@ -34,10 +34,37 @@
 .menu{
 	flex: 3px;
 	-webkit-flex: 3px;
-	-moz-flex: 3px;
-	-o-flex: 3px;
+	-moz-flex: 3px;	
 	-webkit-box-flex: 3px;
 }
+
+.menu ul{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -webkit-flexbox;
+	display: flex;	
+	list-style: none;
+	margin-top: 30px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
