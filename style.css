@@ -201,6 +201,23 @@
         flex-direction: column;
         margin-top: 0;
     }
+    .menu ul li{
+        padding: 5px;
+    }
+    .banner-text-items{
+        width: 100%;
+    }
+    .banner-text-items h2{
+        font-size: 1.5em;
+    }
+    .main-content{
+        -webkit-box-orient: vertical;        
+        -webkit-box-direction: normal;
+        -webkit-flex-directional: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
 
 }
 
