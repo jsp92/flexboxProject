@@ -52,9 +52,33 @@
 	flex-flow: row wrap;
 }
 
+.menu ul li{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1; 
+	text-align: center;
+}
 
+.menu ul li a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;	
+}
 
+.banner-text{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 15%;
+}
 
+.banner-text-items{
+	color: #fff;
+	margin: auto;
+	
+}
 
 
 
