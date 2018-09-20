@@ -77,12 +77,31 @@
 .banner-text-items{
 	color: #fff;
 	margin: auto;
-	
+	text-align: center;
+	width: 50%;
 }
 
+.banner-text-items h2{
+	font-size: 3em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
 
+.banner-text-items p{
+	font-size: 18px;	
+}
 
-
+.main-content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row wrap;
+	-ms-flex
+	
+}
 
 
 
